@@ -14,7 +14,7 @@ public class PoiHwpfDemo {
     public static void main(String[] args) throws Exception {
         Map<String, POIText> replaces = new HashMap<String, POIText>();
         replaces.put("${标题}", POIText.str("请假条"));
-        replaces.put("${名称}", POIText.str("领导"));
+        replaces.put("${名称}", POIText.str("领导1"));
         replaces.put("${请假人}", POIText.str("爱因斯坦"));
         replaces.put("${请假时间}", POIText.str("2012-12-12"));
 
